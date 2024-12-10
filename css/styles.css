@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'redhat';
+    src: url(../fonts/RedHatText-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'redhat-italic';
+    src: url(/fonts/RedHatText-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: 'redhat';
+    background-color: beige;
+}
+
+h1 {
+    padding: 2.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner {
+    width: 80%;
+    height: 15rem;
+    border-radius: 10px;
+    background-image: url(/images/image-waffle-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.dos { background-image: url(/images/image-creme-brulee-mobile.jpg);}
+.tres { background-image: url(/images/image-macaron-mobile.jpg);}
+.cuatro { background-image: url(/images/image-tiramisu-mobile.jpg);}
+.cinco { background-image: url(/images/image-baklava-mobile.jpg);}
+.seis { background-image: url(/images/image-meringue-mobile.jpg);}
+.siete { background-image: url(/images/image-cake-mobile.jpg);}
+.ocho { background-image: url(/images/image-brownie-mobile.jpg);}
+.nueve { background-image: url(/images/image-panna-cotta-mobile.jpg);}
+
+
+button {
+    width: 50%;
+    height: 2.5rem;
+    border: 1px solid #bb693cfe;
+    border-radius: 40px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner button img {
+    padding-right: .5rem;
+}
+
+.texto {
+    margin: 2.3rem 0;
+    width: 80%;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.texto h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #523a2b66;
+}
+
+.texto p {
+    color: #452d0a;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.texto span {
+    color: #dd7734;
+    font-weight: 700;
+}
+
+.cart {
+    padding: 2rem 1rem;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.cart h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.cart p {
+    padding: 1rem;
+}
+
+.cart li {
+    list-style: none;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.delibery {
+    padding: .8rem .3rem;
+    border-radius: 10px;
+    background-color: beige;
+    margin-bottom: 1.3rem;
+}
+
+.cart input{
+    width: 90%;
+    background-color: #dd7734;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* clases js */
+
+.borde {
+    border: 3px solid #452d0a;
+}
+
+.nuevo-contenedor { 
+    width: 50%;
+    height: 2.5rem; 
+    background-color: #bb693cfe;
+    border: 1px solid white;
+    color: white;
+    border-radius: 40px; 
+    font-weight: bold;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 4.5rem; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+} 
+
+.sumar, .restar {
+    padding: 0.5rem ;
+    width: 2rem ;
+    height: 2rem ;
+    background-color: white ;
+    position: absolute;
+    border: none;
+    color: #bb693c;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.sumar {
+   left: 113px ;
+   top: 3px;
+}
+
+.restar {
+   left: 3px ;
+   top: 3px;
+}
+
+.contador { 
+    color:white; 
+}
+
+.producto-nombre {
+    width: 9rem;
+    display: inline-block;
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.producto-precio {
+    width: 2rem;
+    padding: .5rem;
+}
+
+

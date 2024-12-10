@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Desserts</h1>
+        <section class="card">
+            <div class="conteiner uno">
+                <button class="boton" data-id="1" data-price="6.50" data-nombre="Waffle"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Waffle</h4>
+                <p>Waffle with Berries</p>
+                <span>$6.50</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner dos">
+                <button class="boton" data-id="2" data-price="7.00" data-nombre="Créme brulée"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Créme brulée</h4>
+                <p>Vainilla Bean Créme Brulée</p>
+                <span>$7.00</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner tres">
+                <button class="boton" data-id="3" data-price="8.00" data-nombre="macaron"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Macaron</h4>
+                <p>Macaron Mix of Five</p>
+                <span>$8.00</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner cuatro">
+                <button class="boton" data-id="4" data-price="5.50" data-nombre="tiramisu"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Tiramisu</h4>
+                <p>Classic Tiramisu</p>
+                <span>$5.50</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner cinco">
+                <button class="boton" data-id="5" data-price="4.00" data-nombre="baklava"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Baklava</h4>
+                <p>Pistachio Baklava</p>
+                <span>$4.00</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner seis">
+                <button class="boton" data-id="6" data-price="5.00" data-nombre="lemon pie"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Pie</h4>
+                <p>Lemon Meringue Pie</p>
+                <span>$5.00</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner siete">
+                <button class="boton" data-id="7" data-price="4.50" data-nombre="red velvet cake"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Cake</h4>
+                <p>Red Velvet Cake</p>
+                <span>$4.50</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner ocho">
+                <button class="boton" data-id="8" data-price="5.50" data-nombre="brownie"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Brownie</h4>
+                <p>Salted Caramel Brownie</p>
+                <span>$5.50</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="conteiner nueve">
+                <button class="boton" data-id="9" data-price="6.50" data-nombre="panna cotta"><img src="images/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+            </div>
+            <div class="texto">
+                <h4>Panna Cotta</h4>
+                <p>Vainilla Panna Cotta</p>
+                <span>$6.50</span>
+            </div>
+        </section>
+        <section class="cart">
+            <h2>Your Cart (<span id="cuenta">0</span>)</h2>
+            <ul id="cartItems"></ul>
+            <p>Order Total: $<span id="totalCosto"></span></p>
+            <div class="delibery"><img src="images/icon-carbon-neutral.svg" alt="">This is a carbon-neutral delibery</div>
+            <input type="submit" id="enviar" value="Confirm Order">
+        </section>
+    </main>
+</body>
+</html>
