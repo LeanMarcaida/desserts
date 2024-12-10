@@ -33,21 +33,21 @@ h1 {
     width: 80%;
     height: 15rem;
     border-radius: 10px;
-    background-image: url(/images/image-waffle-mobile.jpg);
+    background-image: url(../images/image-waffle-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.dos { background-image: url(/images/image-creme-brulee-mobile.jpg);}
-.tres { background-image: url(/images/image-macaron-mobile.jpg);}
-.cuatro { background-image: url(/images/image-tiramisu-mobile.jpg);}
-.cinco { background-image: url(/images/image-baklava-mobile.jpg);}
-.seis { background-image: url(/images/image-meringue-mobile.jpg);}
-.siete { background-image: url(/images/image-cake-mobile.jpg);}
-.ocho { background-image: url(/images/image-brownie-mobile.jpg);}
-.nueve { background-image: url(/images/image-panna-cotta-mobile.jpg);}
+.dos { background-image: url(../images/image-creme-brulee-mobile.jpg);}
+.tres { background-image: url(../images/image-macaron-mobile.jpg);}
+.cuatro { background-image: url(../images/image-tiramisu-mobile.jpg);}
+.cinco { background-image: url(../images/image-baklava-mobile.jpg);}
+.seis { background-image: url(../images/image-meringue-mobile.jpg);}
+.siete { background-image: url(../images/image-cake-mobile.jpg);}
+.ocho { background-image: url(../images/image-brownie-mobile.jpg);}
+.nueve { background-image: url(../images/image-panna-cotta-mobile.jpg);}
 
 
 button {
